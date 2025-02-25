@@ -4,6 +4,8 @@ header {
 }
 
 /* chinh sua header */
+
+
 header nav {
     display: flex;
     margin-right: 30px;
@@ -52,10 +54,20 @@ button {
     header {
         height: 600px;
     }
+}
+
+@media (max-width:480px) {
+    header {
+        height: 600px;
+    }
 
     .body_header {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    button {
+        margin-left: 80px;
     }
 }
 
@@ -97,10 +109,20 @@ section {
     margin-top: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .body_web .text_body {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .head_body {
+        padding-left: 90px;
+    }
+
+    .span_none {
+        display: none;
     }
 }
 
